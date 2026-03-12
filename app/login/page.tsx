@@ -84,7 +84,7 @@ export default function SignInPage() {
             <Label className="text-[10px] font-black uppercase tracking-widest text-muted-foreground ml-1">Identity Key</Label>
             <Input
               {...register("username")}
-              placeholder="ops@demo.com"
+              placeholder="user@example.com"
               autoComplete="username"
               className="h-9 text-[11px] font-bold bg-muted/50 border-none rounded-lg focus-visible:ring-1 focus-visible:ring-primary/20 transition-all shadow-none"
             />
