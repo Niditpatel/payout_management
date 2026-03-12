@@ -18,7 +18,7 @@ cd payout-management
 pnpm install
 
 # 2. Environment (already configured — no changes needed)
-cp .env.local.example .env.local   # or use the existing .env.local
+cp .env.example .env.local   # or use the existing .env.local
 
 # 3. Seed the database
 # Start dev server first, then hit:
